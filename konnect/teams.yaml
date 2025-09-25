@@ -1,6 +1,7 @@
 teams:
   demo-team-2025-09-25:
     description: demo-team-2025-09-25
+    control-plane-name: konnect-orchestrator-demo
     services:
       bunchc/konnect-reference-platform-demo:
         name: konnect-reference-platform-demo
@@ -12,6 +13,7 @@ teams:
         dev-branch-name: dev
   train locator:
     description: train locator
+    control-plane-name: konnect-orchestrator-demo
     services:
       bunchc/rail-yard-train-locator-api:
         name: rail-yard-train-locator-api
