@@ -10,3 +10,14 @@ teams:
         spec-path: openapi.yaml
         prod-branch-name: main
         dev-branch-name: dev
+  train locator:
+    description: train locator
+    services:
+      bunchc/rail-yard-train-locator-api:
+        name: rail-yard-train-locator-api
+        git:
+          remote: https://github.com/bunchc/rail-yard-train-locator-api.git
+        description: 2025-09-25 rail yard locator demo api spec
+        spec-path: openapi.yaml
+        prod-branch-name: main
+        dev-branch-name: dev
