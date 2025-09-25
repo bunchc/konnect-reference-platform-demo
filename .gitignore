@@ -5,7 +5,3 @@ download_dir/
 
 .DS_Store
 .env
-.github-koctl-token*
-.konnect-orchestrator-token*
-.roo*
-context_portal/
