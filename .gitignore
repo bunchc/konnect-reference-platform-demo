@@ -1,0 +1,11 @@
+# This ignores the installation of deck CLI in CICD pipelines
+deck-*/
+# Temporary folder used by CICD
+download_dir/
+
+.DS_Store
+.env
+.github-koctl-token*
+.konnect-orchestrator-token*
+.roo*
+context_portal/
