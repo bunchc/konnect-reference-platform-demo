@@ -1,14 +1,14 @@
 name: Konnect - koctl apply
-on:
-    workflow_dispatch:
-    schedule:
-        # Run apply every hour
-        - cron: "0 * * * *"
-    push:
-        branches: [main]
-        paths:
-            - "konnect/teams.yaml"
-            - "konnect/organizations.yaml"
+#on:
+#    workflow_dispatch:
+#    schedule:
+#        # Run apply every hour
+#        - cron: "0 * * * *"
+#    push:
+#        branches: [main]
+#        paths:
+#            - "konnect/teams.yaml"
+#            - "konnect/organizations.yaml"
 jobs:
     koctl-apply:
         name: Apply configuration to Konnect
