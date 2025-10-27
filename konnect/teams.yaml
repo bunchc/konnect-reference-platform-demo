@@ -1,0 +1,12 @@
+teams:
+  rail-test:
+    description: rail-test
+    services:
+      bunchc/rail-yard-train-maintenance-api:
+        name: rail-yard-train-maintenance-api
+        git:
+          remote: https://github.com/bunchc/rail-yard-train-maintenance-api.git
+        description: rail-yard-train-maintenance-api
+        spec-path: openapi.yaml
+        prod-branch-name: main
+        dev-branch-name: dev
