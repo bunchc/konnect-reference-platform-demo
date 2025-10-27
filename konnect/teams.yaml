@@ -2,6 +2,14 @@ teams:
   rail-test:
     description: rail-test
     services:
+      bunchc/konnect-reference-platform-demo:
+        name: konnect-reference-platform-demo
+        git:
+          remote: https://github.com/bunchc/konnect-reference-platform-demo.git
+        description: konnect-reference-platform-demo 2025-09-25
+        spec-path: openapi.yaml
+        prod-branch-name: main
+        dev-branch-name: add-service-rail-yard-train-maintenance-api
       bunchc/rail-yard-train-maintenance-api:
         name: rail-yard-train-maintenance-api
         git:
